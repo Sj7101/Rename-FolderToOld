@@ -23,3 +23,12 @@
         }
     }
 }
+
+<# Example useage:
+
+Rename-FolderToOld -Folders "\\UNC1\D$\Folder1\Folder2","\\UNC2\D$\Folder3\Folder4"
+or
+$Folders = "\\UNC1\D$\Folder1\Folder2","\\UNC2\D$\Folder3\Folder4"
+Rename-FolderToOld -Folders $Folders
+
+#>
